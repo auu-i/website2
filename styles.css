@@ -1,7 +1,7 @@
 h1 {
-    color: blue;
-    background-color: yellow;
-    border: 1px solid black;
+    color: white;
+    background-color: lightblue;
+    border: 1px solid white;
    }
   
 p {
@@ -14,13 +14,14 @@ p {
     grid-template-areas: 'header header header header header header'
                          'menu menu main main right right'
                          'menu menu footer footer right right';
-    background-color: blue;
+    background-color: antiquewhite;
     padding: 10px;
     justify-content: space-evenly;
 }
 
 .grid-item {
-    background-color: aqua;
+    color: aliceblue;
+    background-color: plum;
     border: 1px solid white;
     padding: 20px;
     font-size: 30px;
